@@ -1,0 +1,175 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    line-height: 1.6rem;
+}
+#div_head{
+    border: 1px solid black;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #333333;
+    position: sticky;
+    top: 0px;
+}
+.main_head{
+    width: 80px;
+    line-height: 45px;
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#my_tune{
+    border: 1px solid black;
+    height: 100vh;
+    background-image: url(../presentation/mytune.jpeg);
+    background-repeat: no-repeat;
+    background-position-x: center ;
+    background-position-y: center ;
+    background-size: cover;
+    width: 100%;
+}
+#tunes{
+    color: white;
+   text-align: center;
+   margin-top: 180px;
+   font-size: 70px;
+}
+#tune1{
+    color: white;
+    text-align: center;
+}
+#tune2{
+    color: white;
+    text-align: center;
+    
+}
+#content{
+    border: 1px solid black;
+    height: 180vh;
+    background-color: #252529;
+}
+#content_music{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 35px;
+}
+#content_song{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 60px;
+}
+#content_p{
+    color: white;
+    text-align: center;
+}        
+#content_button{
+    margin-left: 550px;
+    padding: 16px;
+    margin-top: 20px;
+    background-color: #b90415;
+    color: white;
+    border: none;
+}
+#content_p1{
+    color: white;
+    text-align: center;
+}
+#content_img{
+    margin-left: 50px;
+}
+#iphone{
+    height: 210vh;
+    border: 1px solid black;
+}
+#iphone_head{
+    text-align: center;
+    margin-top: 80px;
+
+}
+#iphone_para{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 30px;
+}
+#iphone_button{
+    margin-left: 550px;
+    padding: 15px;
+    background-color: rgb(16,48,99);
+    color: white;
+    border: none;
+}
+#iphone_img{
+    margin-left: 130px;
+    margin-top: 30px;
+}
+#rainbow{
+    border: 1px solid black;
+    height: 80vh;
+   
+}
+#rainbow_head{
+    text-align: center;
+    color: white;
+    margin-top: 190px;
+    position: relative;
+}
+#rainbow_img{
+    position: absolute;
+}
+#rainbow_para{
+    text-align: center;
+    color: white;
+    position: relative;
+    margin-top: 50px;
+    font-size: 20px;
+    line-height: 30px;
+}
+#gift{
+    border: 1px solid black;
+    height: 90vh;
+    display: flex;
+}
+.gift_item{
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 90vh;
+}
+#gift_img{
+    margin-top: 90px;
+}
+#gift_head{
+    margin-top: 150px;
+    margin-left: 0px;
+    color: rgb(51,51,51);
+    position: relative;
+    font-size: 20px;
+}
+#gift_para2{
+    margin-top: 30px;
+}
+#footer{
+    background-color: rgb(37,37,41);
+    height: 50vh;
+    display: flex;
+
+}
+.foot{
+     color: rgb(255,255,255);
+    width: 25%;
+    height: 30vh;
+    text-align: center;
+    margin-top: 35px;
+}
+#copy{
+    height: 8vh;
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgb(51,51,51);
+}
